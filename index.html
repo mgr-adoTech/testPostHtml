@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document TEST</title>
+</head>
+<body>
+    <form action="http://localhost:62859/validar-persona" method="post">
+
+        <input type="hidden" name="callback" value="https://mgr-adotech.github.io/testPostHtml/receive">
+        <input type="hidden" name="key" value="db92efc69991">
+        <input type="hidden" name="projectName" value="desarrollo">
+        <input type="hidden" name="product" value="1">
+
+        <input type="submit" value="Validar">
+
+    </form>
+
+    
+    <form action="http://localhost:62859/verificar-persona/" method="post">
+
+        <input type="hidden" name="callback" value="https://mgr-adotech.github.io/testPostHtml/receive">
+        <input type="hidden" name="key" value="db92efc69991">
+        <input type="hidden" name="projectName" value="desarrollo">
+        <input type="hidden" name="product" value="1">
+        <input type="hidden" name="identificationNumber" value="1014281750">
+
+        <input type="submit" value="Verificar">
+
+    </form>
+</body>
+</html>
